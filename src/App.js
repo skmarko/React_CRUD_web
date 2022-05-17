@@ -8,6 +8,11 @@ import Home from './component/pages/Home';
 import {BrowserRouter as Router} from 'react-router-dom';
 import { Route, Routes} from 'react-router-dom';
 import NotFound from "./component/pages/NotFound";
+import AddUser from "./component/users/AddUser";
+import EditUser from "./component/users/EditUser";
+import User from "./component/users/user";
+
+
 function App() {
   return (
    <Router>
@@ -17,7 +22,12 @@ function App() {
    <Route exact path="/" element= {<Home />}/>
    <Route exact path ="/about" element ={<About/>}/>
    <Route exact path="/contact" element={<Contact/>}/>
+   <Route exact path="/users/add" element={<AddUser/>}/>
+   
+   <Route exact path="/users/edit/:id" element={<EditUser/>}/>
+   <Route exact path="/users/:id" element={<User/>}/>
    <Route path="*"  element = {<NotFound/>}/>
+
  </Routes>
  
     </div>
