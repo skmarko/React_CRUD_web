@@ -6,6 +6,7 @@ const Navbar = () => {
 
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
             <div className="container">
+                
                 <span className="navbar-brand" >React </span>
                 <button
           className="navbar-toggler"
@@ -34,7 +35,7 @@ const Navbar = () => {
                     </ul>
 
                 </div>
-                <NavLink className="btn btn-outline-light" to ="/users/add">Add Users</NavLink>
+                <NavLink className="btn btn-outline-light" to ="/users/add">Registeration</NavLink>
             </div>
             
         </nav>

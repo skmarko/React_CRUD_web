@@ -11,10 +11,12 @@ import NotFound from "./component/pages/NotFound";
 import AddUser from "./component/users/AddUser";
 import EditUser from "./component/users/EditUser";
 import User from "./component/users/user";
+import NavbarBottom from "./component/layout/Navbar_bottom";
 
 
 function App() {
-  return (
+  return (<>
+    <div>
    <Router>
       <div className="App">
  <Navbar/>
@@ -32,6 +34,13 @@ function App() {
  
     </div>
    </Router>
+  
+   
+   </div>
+   <div>
+     <NavbarBottom/>
+   </div>
+   </>
   );
 }
 

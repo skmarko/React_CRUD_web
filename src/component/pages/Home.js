@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
+import "./Home.css";
 const Home = () => {
   const [users, setUser] = useState([]);
 
@@ -22,7 +23,7 @@ const Home = () => {
   return (
     <div className="container">
       <div className="py-4">
-        <h3>Users List</h3>
+        <h3>Registred React Users</h3>
         <table className="table border shadow">
           <thead className="table-dark">
             <tr>
@@ -30,7 +31,7 @@ const Home = () => {
               <th scope="col">Name</th>
               <th scope="col">User Name</th>
               <th scope="col">Email</th>
-              <th>Action</th>
+              <th scope="col"  >Action</th>
             </tr>
           </thead>
           <tbody>
@@ -41,8 +42,8 @@ const Home = () => {
                 <td>{user.username}</td>
                 <td>{user.email}</td>
                 <td>
-                <NavLink className="btn btn-primary mr-2" to={`/users/${user.id}`}>View</NavLink>
-                  <NavLink className="btn btn-outline-primary mr-2" to={`/users/edit/${user.id}`}>edit</NavLink>
+                <NavLink className="btn btn-primary mr-2 " to={`/users/${user.id}`}>View</NavLink>
+                  <NavLink className="btn btn-outline-primary mx-2" to={`/users/edit/${user.id}`}>Edit</NavLink>
                  <button className="btn btn-danger" onClick={()=>deleteUser(user.id)}>Delete</button>
                 </td>
               </tr>
