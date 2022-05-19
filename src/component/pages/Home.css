@@ -1,3 +1,17 @@
 .container{
     text-align-last: center;
 }
+.Web{
+    text-align-last: center;
+}
+.form{
+    text-align-last: auto;
+}
+.rounded-circle{
+    width: 100px;
+}
+.email{
+    text-overflow: clip;
+    text-decoration: solid;
+    color:blue;
+}

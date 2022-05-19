@@ -39,7 +39,7 @@ let navigate = useNavigate()
     return (
         <div className="container">
         <div className="w-75 mx-auto shadow p-5">
-          <h2 className="text-center mb-4">Edit A User</h2>
+          <h2 className="text-center mb-4">Edit User</h2>
           <form  onSubmit={e=>onSubmit(e)}>
             <div className="form-group">
               <input

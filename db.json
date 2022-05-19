@@ -61,13 +61,6 @@
       "id": 12
     },
     {
-      "name": "sskk",
-      "username": "skk123`ska@gmail.com",
-      "email": "sk@fma.com",
-      "phone": "1221",
-      "id": 13
-    },
-    {
       "name": "ddd",
       "username": "dd",
       "email": "dd@gmail.com",
@@ -101,6 +94,13 @@
       "email": "dhdh@gmail.com",
       "phone": "5455",
       "id": 18
+    },
+    {
+      "name": "marko",
+      "username": "marko@gmail.com",
+      "email": "marko@gmail.com",
+      "phone": "123145",
+      "id": 19
     }
   ]
 }
