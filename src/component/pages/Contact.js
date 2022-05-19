@@ -35,6 +35,7 @@ const Contact= ()=>{
 							<h1><span>SHEETAL KUMAR MARKO</span></h1>
 							<h3><span>FRONT-END Developer</span></h3>
               <h4 className="email"><span>Email:skmark516@gmail.com</span></h4>
+              <h4 ><span>Contact:7000583601</span></h4>
 						
 						</div>
         </> )
