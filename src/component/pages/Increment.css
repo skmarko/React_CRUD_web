@@ -1,0 +1,8 @@
+.container a span {
+    width: 50%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  cursor: pointer;
+ 
+}

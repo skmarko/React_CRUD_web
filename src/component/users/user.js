@@ -7,10 +7,11 @@ const User =() =>{
     const [user, setUser]= useState({
         name:'',
         username:'',
-        email:'',
-        phone:''
+        email:''
+        
     });
 
+    
 const{id} = useParams();
 
 useEffect(()=>{

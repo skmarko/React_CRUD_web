@@ -12,6 +12,7 @@ import AddUser from "./component/users/AddUser";
 import EditUser from "./component/users/EditUser";
 import User from "./component/users/user";
 import NavbarBottom from "./component/layout/Navbar_bottom";
+import Increment from "./component/pages/Increment_de.js";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
    <Route exact path ="/about" element ={<About/>}/>
    <Route exact path="/contact" element={<Contact/>}/>
    <Route exact path="/users/add" element={<AddUser/>}/>
+   <Route exact path="/redux_use" element={<Increment/>}/>
    
    <Route exact path="/users/edit/:id" element={<EditUser/>}/>
    <Route exact path="/users/:id" element={<User/>}/>
